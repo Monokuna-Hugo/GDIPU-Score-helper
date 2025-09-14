@@ -1,0 +1,16 @@
+.App-title{
+  text-align: center;
+}
+.popup{
+  width: 482px;
+  height: 100px;
+}
+.App-header{
+  color:unset;
+  background: white;
+  padding-inline:20px;
+  margin-bottom: 1px;
+}
+.App-content{
+  background: linear-gradient(to right,#fefefe,#fff);
+}
