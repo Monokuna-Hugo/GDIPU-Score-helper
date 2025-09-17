@@ -2,6 +2,7 @@ import React from 'react';
 import { Flex, Layout, Typography } from 'antd';
 import { Menu } from 'antd';
 import MySider from '../../containers/MySider/MySider';
+import MyContent from '../../containers/MyContent/MyContent';
 const { Header, Footer, Sider, Content, } = Layout;
 import { BarChartOutlined, UserOutlined } from '@ant-design/icons';
 const { Title } = Typography;
@@ -47,7 +48,9 @@ const Options = () => {
             <Title className='header-title' style={titleStyle}>Ant Design</Title>
           </div>
         </Header>
-        <Content style={contentStyle}>Content</Content>
+        <Content style={contentStyle}>
+          <MyContent />
+        </Content>
         <Footer style={footerStyle}>Footer</Footer>
       </Layout>
     </Layout>

@@ -1,0 +1,36 @@
+:root {
+    --button-color: #4CAF50;
+    /* 默认颜色，如果无法获取搜索框边框颜色则使用此颜色 */
+}
+
+.custom-button-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.custom-button {
+    margin-bottom: 10px;
+    padding: 8px 15px;
+    background-color: transparent;
+    color: var(--button-color);
+    border: 2px solid var(--button-color);
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.custom-button:hover {
+    background-color: rgba(var(--button-color), 0.1);
+}
+
+.custom-button:active {
+    transform: translateY(1px);
+}

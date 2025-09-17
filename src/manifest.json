@@ -6,6 +6,16 @@
   "background": {
     "service_worker": "background.bundle.js"
   },
+  "permissions": [
+    "activeTab",
+    "background",
+    "storage",
+    "tabs",
+    "debugger",
+    "alarms",
+    "scripting",
+    "declarativeNetRequest"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": "icon-34.png"
@@ -19,9 +29,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://*/*",
-        "https://*/*",
-        "<all_urls>"
+        "https://my.gdip.edu.cn/studentIntegration-compositEassess/studentIntegration-compositEassess-AssessInforQuery"
       ],
       "js": [
         "contentScript.bundle.js"
@@ -30,6 +38,12 @@
         "content.styles.css"
       ]
     }
+  ],
+  "host_permissions": [
+    "https://my.gdip.edu.cn/*",
+    "https://study.gdip.edu.cn/*",
+    "https://zhxygateway.gzzhyc.cn/*",
+    "<all_urls>"
   ],
   "devtools_page": "devtools.html",
   "web_accessible_resources": [
