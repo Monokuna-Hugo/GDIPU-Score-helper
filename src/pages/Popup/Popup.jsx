@@ -1,6 +1,6 @@
 import React from 'react';
 import './Popup.css';
-import { Button, Flex, Layout, Typography } from 'antd';
+import { Button, Flex, Typography } from 'antd';
 import { Content, Header } from 'antd/es/layout/layout';
 import { BarChartOutlined, CalendarOutlined, SearchOutlined, UserOutlined } from '@ant-design/icons';
 
@@ -9,29 +9,29 @@ const Popup = () => {
 
   const onPersonCenter = () => {
     chrome.tabs.create({
-      url:'https://my.gdip.edu.cn/homePage/homePage-PersonCenter'
+      url: 'https://my.gdip.edu.cn/homePage/homePage-PersonCenter'
     })
   }
   const onActivityList = () => {
     chrome.tabs.create({
-      url:'https://study.gdip.edu.cn/CloudPortal/CloudSquare'
+      url: 'https://study.gdip.edu.cn/CloudPortal/CloudSquare'
     })
   }
   const onAccessScore = () => {
     chrome.tabs.create({
-      url:'https://my.gdip.edu.cn/studentIntegration-compositEassess/studentIntegration-compositEassess-AssessInforQuery'
+      url: 'https://my.gdip.edu.cn/studentIntegration-compositEassess/studentIntegration-compositEassess-AssessInforQuery'
     })
   }
   const onOverView = () => {
     chrome.tabs.create({
-      url:chrome.runtime.getURL('options.html')
+      url: chrome.runtime.getURL('options.html')
     })
   }
 
   return (
     <div className="popup">
       <Header className="App-header">
-        <Title className="App-title">智慧3.0助手</Title>
+        <Title className="App-title">GDIPU-Score-Helper</Title>
       </Header>
       <Content className="App-content">
         <Flex gap="small" wrap>

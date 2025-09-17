@@ -1,50 +1,54 @@
 import React from 'react';
-import { UploadOutlined, UserOutlined, VideoCameraOutlined } from '@ant-design/icons';
-import { Layout, Menu, theme } from 'antd';
-const { Header, Content, Footer, Sider } = Layout;
-const items = [UserOutlined, VideoCameraOutlined, UploadOutlined, UserOutlined].map(
-  (icon, index) => ({
-    key: String(index + 1),
-    icon: React.createElement(icon),
-    label: `nav ${index + 1}`,
-  }),
-);
+import { Flex, Layout, Typography } from 'antd';
+import { Menu } from 'antd';
+import MySider from '../../containers/MySider/MySider';
+const { Header, Footer, Sider, Content, } = Layout;
+import { BarChartOutlined, UserOutlined } from '@ant-design/icons';
+const { Title } = Typography;
+const headerStyle = {
+  paddingInline: '20px',
+  background: '#fff',
+  color: 'unset',
+  marginBottom: '1px',
+};
+const contentStyle = {
+  padding: '20px',
+  background: 'linear-gradient(to right, #fefefe, #fff)',
+  marginBottom: '28px',
+};
+
+const footerStyle = {
+  textAlign: 'center',
+  color: '#fff',
+  backgroundColor: '#4096ff',
+};
+const layoutStyle = {
+  minHeight: '100vh',
+};
+const titleStyle = {
+  color: 'black',
+  fontSize: '18px',
+  marginLeft: '20px',
+};
+const headerContentStyle = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'flex-start',
+  height: '64px',
+};
+
 const Options = () => {
-  const {
-    token: { colorBgContainer, borderRadiusLG },
-  } = theme.useToken();
   return (
-    <Layout>
-      <Sider
-        breakpoint="lg"
-        collapsedWidth="0"
-        onBreakpoint={broken => {
-          console.log(broken);
-        }}
-        onCollapse={(collapsed, type) => {
-          console.log(collapsed, type);
-        }}
-      >
-        <div className="demo-logo-vertical" />
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={['4']} items={items} />
-      </Sider>
+    <Layout style={layoutStyle}>
+      <MySider />
       <Layout>
-        <Header style={{ padding: 0, background: colorBgContainer }} />
-        <Content style={{ margin: '24px 16px 0' }}>
-          <div
-            style={{
-              padding: 24,
-              minHeight: 360,
-              background: colorBgContainer,
-              borderRadius: borderRadiusLG,
-            }}
-          >
-            content
+        <Header style={headerStyle}>
+          <div className='header-content' style={headerContentStyle}>
+            <Title className='header-title' style={titleStyle}>Ant Design</Title>
           </div>
-        </Content>
-        <Footer style={{ textAlign: 'center' }}>
-          Ant Design ©{new Date().getFullYear()} Created by Ant UED
-        </Footer>
+        </Header>
+        <Content style={contentStyle}>Content</Content>
+        <Footer style={footerStyle}>Footer</Footer>
       </Layout>
     </Layout>
   );
