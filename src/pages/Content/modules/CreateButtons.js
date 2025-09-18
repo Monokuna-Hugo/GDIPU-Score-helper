@@ -119,5 +119,3 @@ const showFloatingMessage = (message) => {
 
   setTimeout(() => document.body.removeChild(messageElement), 1100);
 };
-
-addButtons();
