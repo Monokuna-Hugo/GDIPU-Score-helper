@@ -33,3 +33,5 @@ class DataBackGround {
 }
 
 chrome.runtime.onMessage.addListener(new DataBackGround().messageHandler.bind(new DataBackGround()));
+
+console.log("Background script loaded");
