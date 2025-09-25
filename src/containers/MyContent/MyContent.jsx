@@ -1,7 +1,9 @@
 import React, { Component } from "react"
-import { Card, Col, Flex, Row, Space, Splitter, Typography } from 'antd';
+import { Card, Col, Flex, notification, Row, Space, Splitter, Typography } from 'antd';
 import DemoRose from "../Charts/RadarCharts";
 import StudentDashboard from "../Charts/StudentDashboard";
+
+
 
 
 class MyContent extends Component {
@@ -21,13 +23,15 @@ class MyContent extends Component {
                 }
             });
         }
+
+
     }
 
     render() {
         const { studentInfo } = this.state;
 
         return (
-            <Row gutter={12}>
+            <Row gutter={24}>
                 <Col span={12}>
                     <Card title="分数玫瑰图">
                         <DemoRose studentInfo={studentInfo} />
