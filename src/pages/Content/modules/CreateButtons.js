@@ -47,12 +47,12 @@ const scrapeInfo = async () => {
     }),
     assessmentRecords: await scrapeAssessmentRecords()
   };
-
+  console.log(info);
   saveData(info);
 };
 
 const saveData = (info) => {
-  chrome.runtime.sendMessage({ action: "saveData", data: info }, (response) => {
+  chrome.runtime.sendMessage({ action: "onDataSave", data: info }, (response) => {
     if (chrome.runtime.lastError) {
       console.error('保存数据时出错:', chrome.runtime.lastError);
     } else {

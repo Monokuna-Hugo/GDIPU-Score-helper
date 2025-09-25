@@ -2,6 +2,11 @@ import { Radar } from '@ant-design/plots';
 import React from 'react';
 import { createRoot } from 'react-dom';
 
+
+
+
+
+
 const data = [
     { item: 'Design', type: 'a', score: 70 },
     { item: 'Design', type: 'b', score: 30 },

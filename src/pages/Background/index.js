@@ -1,37 +1,23 @@
+console.log("数据后台已启动");
 
-class DataBackGround {
-    constructor() {
-        this.init();
-    }
-
-    init() { }
-
-    messageHandler(request, sender, sendResponse) {
-        const actions = {
-            onDataSave: () => this.onDataSave(request, sendResponse),
-            onDataPageOpen: () => this.onDataPageOpen(),
-        };
-
-        if (Object.prototype.hasOwnProperty.call(actions, request.action)) {
-            actions[request.action]();
-        }
-        return false;
-    }
-
-    onDataSave(request, sendResponse) {
-        chrome.storage.local.set({ studentInfo: request.data }, () => {
-            chrome.runtime.lastError ? sendResponse({ success: false }) : sendResponse({ success: true });
-        })
-        return true;
-    }
-
-    onDataPageOpen() {
-        chrome.runtime.openOptionsPage();
-        return true;
-    }
-
+try {
+    importScripts('./background.bundle.js');
+} catch (error) {
+    console.error('数据后台加载脚本时出错:', error);
 }
 
-chrome.runtime.onMessage.addListener(new DataBackGround().messageHandler.bind(new DataBackGround()));
 
-console.log("Background script loaded");
+import DataBackGround from './DataBackground';
+const dataBackGround = new DataBackGround();
+
+chrome.runtime.onMessage.addListener(dataBackGround.messageHandler.bind(dataBackGround));
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    if (['onDataSave', 'onDataPageOpen'].includes(request.action)) {
+        return dataBackGround.messageHandler(request, sender, sendResponse);
+    }
+    return false;
+})
+
+chrome.alarms.create("keepAlive", { periodInMinutes: 0.2 });
+
