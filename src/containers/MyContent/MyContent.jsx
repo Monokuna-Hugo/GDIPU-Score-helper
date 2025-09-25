@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Card, Col, Flex, notification, Row, Space, Splitter, Typography } from 'antd';
-import DemoRose from "../Charts/RadarCharts";
+import StudentRadarChart from "../Charts/RadarCharts";
 import StudentDashboard from "../Charts/StudentDashboard";
 
 
@@ -33,13 +33,13 @@ class MyContent extends Component {
         return (
             <Row gutter={24}>
                 <Col span={12}>
-                    <Card title="分数玫瑰图">
-                        <DemoRose studentInfo={studentInfo} />
+                    <Card title="测评记录">
+                        <StudentDashboard studentInfo={studentInfo} />
                     </Card>
                 </Col>
                 <Col span={12}>
-                    <Card title="测评记录">
-                        <StudentDashboard studentInfo={studentInfo} />
+                    <Card title="分数玫瑰图">
+                        <StudentRadarChart studentInfo={studentInfo} />
                     </Card>
                 </Col>
             </Row>

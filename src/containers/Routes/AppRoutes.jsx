@@ -23,10 +23,8 @@ const ChartsAnalysis = () => (
 const AppRoutes = () => {
     return (
         <Routes>
-            <Route path="/dashboard" element={<StudentDashboard />} />
+            <Route path="/dashboard" element={<MyContent />} />
             <Route path="/charts" element={<ChartsAnalysis />} />
-            <Route path="/radar" element={<MyContent />} />
-            <Route path="/profile" element={<Profile />} />
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
         </Routes>
     );

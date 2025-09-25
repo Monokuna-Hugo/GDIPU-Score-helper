@@ -1,5 +1,5 @@
 import { Layout } from 'antd';
-import { BarChartOutlined, UserOutlined, DashboardOutlined, RadarChartOutlined } from '@ant-design/icons';
+import { DashboardOutlined, TableOutlined } from '@ant-design/icons';
 import { Menu } from 'antd';
 import React, { Component } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -15,19 +15,9 @@ const menuItems = [
     },
     {
         key: '/charts',
-        icon: <BarChartOutlined />,
-        label: '图表分析',
+        icon: <TableOutlined />,
+        label: '测评记录',
     },
-    {
-        key: '/radar',
-        icon: <RadarChartOutlined />,
-        label: '雷达图',
-    },
-    {
-        key: '/profile',
-        icon: <UserOutlined />,
-        label: '个人信息',
-    }
 ];
 
 const siderStyle = {
