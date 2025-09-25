@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Flex, Splitter, Typography } from 'antd';
-import DemoRadar from "../Charts/RadarCharts";
+import DemoRose from "../Charts/RadarCharts";
 
 const Desc = props => (
     <Flex justify="center" align="center" style={{ height: '100%' }}>
@@ -61,9 +61,9 @@ class MyContent extends Component {
         const { studentInfo } = this.state;
 
         return (
-            <Splitter style={{ height: 200, boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', height: '500px' }}>
+            <Splitter style={{ height: 200, boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)', height: '510px' }}>
                 <Splitter.Panel defaultSize="40%" min="20%" max="70%">
-                    <DemoRadar studentInfo={studentInfo} />
+                    <DemoRose studentInfo={studentInfo} />
                 </Splitter.Panel>
                 <Splitter.Panel>
                     <div style={{ padding: '20px', height: '100%' }}>

@@ -1,7 +1,7 @@
-import { Radar } from '@ant-design/plots';
+import { Rose } from '@ant-design/plots';
 import React from 'react';
 
-const DemoRadar = ({ studentInfo }) => {
+const DemoRose = ({ studentInfo }) => {
     // 如果没有传入studentInfo，使用默认数据
     if (!studentInfo || !studentInfo.items || studentInfo.items.length === 0) {
         return null;
@@ -16,58 +16,34 @@ const DemoRadar = ({ studentInfo }) => {
         '劳育': '#722ed1'  // 紫色
     };
 
-    // 处理studentInfo数据，转换为雷达图需要的格式
-    const radarData = studentInfo.items.map(item => {
+    // 处理studentInfo数据，转换为玫瑰图需要的格式
+    const roseData = studentInfo.items.map(item => {
         const itemName = item.name.replace(/（.*?）/, ''); // 移除括号内的百分比信息
-        // 根据五育名称确定类型
-        const type = itemName;
         return {
-            item: itemName,
-            score: parseFloat(item.score),
-            percentage: parseFloat(item.percentage),
-            type: type
+            type: itemName,
+            value: parseFloat(item.score),
+            percentage: parseFloat(item.percentage)
         };
     });
 
     const config = {
-        data: radarData,
-        xField: 'item',
-        yField: 'score',
+        data: roseData,
+        xField: 'type',
+        yField: 'value',
+        innerRadius: 0.2,
         colorField: 'type',
-        color: (type) => typeColors[type] || '#d9d9d9', // 根据类型返回对应颜色
-        coordinateType: 'polar',
-        axis: {
-            x: {
-                grid: true,
-                gridLineWidth: 1,
-                tick: false,
-                gridLineDash: [0, 0],
-                line: false,
-            },
-            y: {
-                zIndex: 1,
-                title: false,
-                gridConnect: 'line',
-                gridLineWidth: 1,
-                gridLineDash: [0, 0],
-            },
-        },
-        area: {
-            style: {
-                fillOpacity: 0.5,
-            },
-        },
-        point: {
-            shapeField: 'point',
-            sizeField: 3,
-        },
-        scale: { x: { padding: 0.5, align: 0 }, y: { tickCount: 5, domainMax: 80 } },
         style: {
-            lineWidth: 2,
+            radius: 5,
+
+        },
+        scale: {
+            y: {
+                domainMax: 100
+            }
         },
     };
 
-    return <Radar {...config} />;
+    return <Rose {...config} />;
 };
 
-export default DemoRadar;
+export default DemoRose;
