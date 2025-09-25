@@ -1,0 +1,950 @@
+{
+    "assessmentRecords": [
+        {
+            "activityName": "",
+            "assessmentIndicator": "智育测评",
+            "assessmentItem": "课程总评分",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-08-27",
+            "score": "72.83",
+            "scoringCondition": "智育测评"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "智育测评",
+            "assessmentItem": "专业类技能证书（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-08-25",
+            "score": "3",
+            "scoringCondition": "【大一、大二】1.考取计算机一级证书加0.5分，二级证书加1分，三级证书加1.5分，四级证书加2分；\n2.英语A级（大学英语三级考试）证书加0.5分；全国大学英语四级（CET-4）证书加1分，六级（CET-6）证书加2分；\n3.其他专业类资格证书：\n专业类技能资格证书，每获得一个证书加2分，上限6分；公共类技能资格证书，每获得一个证书加1分，上限6分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "非毕业班易班网薪值",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-08-15",
+            "score": "8",
+            "scoringCondition": "【大一、大二】每学年学生易班网薪增长值达1500，加3分；网薪增长值达2500，加5分；网薪增长值达4000，加8分。（起止日期：每年9月1日－－次年8月15日））"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "每周宿舍清洁",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-07-15",
+            "score": "27.5",
+            "scoringCondition": "【大一、大二】根据每年的宿舍评比方案更新评分细则。走读、外宿的学生由学院安排公共区域劳动等相关劳育活动给予加分。\n【毕业班】根据每年的宿舍评比方案更新评分细则。走读、外宿的学生由学院安排公共区域劳动等相关劳育活动给予加分。（只算大三第一学期）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "文明宿舍（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-07-15",
+            "score": "5",
+            "scoringCondition": "【大一、大二】根据每年的宿舍评比方案更新评分细则。\n【毕业班】根据每年的宿舍评比方案更新评分细则。（只算大三第一学期）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "参加学生组织（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-07-10",
+            "score": "5",
+            "scoringCondition": "【大一大二】1.参与各类学生组织，履行职责，完成各项工作任务，每学年加5 分； 2.参与多个学生组织的，不重复加分。在任期内工作不合 格者此项不得分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "学生组织学生工作人员评议考核（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-07-10",
+            "score": "5",
+            "scoringCondition": "【大一大二】每年6 月份各学生组织学生工作人员均需进行工作评议考核，考核分优秀、良好、合格与不合格四个等级。优秀与良好的比例分别不超过参评人员30%。考核优秀的学生组织学生工作人员加15 分，考核良好的学生组织学生工作人员加10 分，考核合格的学生组织学生工作人员加5分。考核不合格的学生组织学生工作人员不得分。 参与多个学生组织的，只按照本人最高表现分加一次，不重复加分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "非毕业班社区思政线上资源库建设及学习",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-07-06",
+            "score": "8",
+            "scoringCondition": "【大一、大二】1.视频作品通过社区思政活动策划中心审核，全体团队成员加1分；\n2.视频作品展播在以下平台（智慧校园3.0学习视频营地、轻院青年抖音号、广轻学生工作部视频号、轻工在线课程学习平台、“一站式”学生社区育人号），第一作者加2分，视频团队其他成员加1分，多平台展播不叠加分数，不叠加视频审核通过得分；\n3.视频作品被评选为“月优秀”作品，全体团队成员另加2分；\n4.观看【轻工在线】学习平台社区思政线上课程视频，观看时长每满1小时加德育1分，可叠加视频制作得分。\n每学年上限8分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "日常行为表现",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-07-01",
+            "score": "29.94",
+            "scoringCondition": "以《高等学校学生行为准则》确定的大学生行为基本规范作为标准，达到标准者，每学年可得德育测评基本分30分。由学生个人自我测评、班级评议小组测评、辅导员测评构成，分别占20%、40%、40%。"
+        },
+        {
+            "activityName": "步数传爱，心与步和",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-其他校级体育类活动-线下体育活动-校级体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-18",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "步随爱动，心与步同",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-其他校级体育类活动-线下体育活动-校级体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-12",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "广轻轻绿环保协会“南海北-第十一期弯弯腰，净校园”志愿服务活动",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "劳育测评-5.2其他劳育活动-积极参加公共区域志愿劳动服务-校级劳育-积极参加公共区域志愿劳动服务（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-10",
+            "score": "3",
+            "scoringCondition": "【大一、大二】积极参加学校公共区域志愿劳动服务，每完成一次志愿劳动服务可得3分，每学年上限分40分（公共区域志愿劳动活动由学校青志总队负责统筹，具体的活动细则另行通知）。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "智育测评",
+            "assessmentItem": "技能竞赛及学术科技节-信息安全管理与评估",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-10",
+            "score": "1.1",
+            "scoringCondition": "1.参与加0.1分； 2.获得校级一等奖另加 1 分，二等奖另加 0.8 分，三等奖另加 0.6 分，优秀奖另加0.4 分，以上奖项不叠加。"
+        },
+        {
+            "activityName": "“体育百科・运动大脑”知识竞赛",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加学院体育类活动-非线下体育活动-学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-07",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "博学笃行，体育健康 线上知识竞赛（第五期）",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-其他校级体育类活动-非线下体育活动-校级体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-05",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "走步成爱，捐步成光",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-其他校级体育类活动-线下体育活动-校级体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-04",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "广轻轻绿环保协会“南海北-第十期弯弯腰，净校园”志愿服务活动",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "劳育测评-5.2其他劳育活动-积极参加公共区域志愿劳动服务-校级劳育-积极参加公共区域志愿劳动服务（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-03",
+            "score": "3",
+            "scoringCondition": "【大一、大二】积极参加学校公共区域志愿劳动服务，每完成一次志愿劳动服务可得3分，每学年上限分40分（公共区域志愿劳动活动由学校青志总队负责统筹，具体的活动细则另行通知）。"
+        },
+        {
+            "activityName": "6.3劳育活动",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "劳育测评-5.2其他劳育活动-积极参加学院组织志愿劳动服务-学院劳育-其他类型活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-03",
+            "score": "3",
+            "scoringCondition": "1.参与加1-3分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-06-01",
+            "score": "1.5",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "压力与情绪管理心理主题班会",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "德育测评-其他德育项目【大一、大二】-参加班级思政类活动-班级德育-主题班会（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-30",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（非毕业班）"
+        },
+        {
+            "activityName": "维镀“设计新生代·CAD创未来”知识竞赛",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加社团美育类活动-社团美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-21",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）； \n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "5.20劳育活动",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "劳育测评-5.2其他劳育活动-积极参加学院组织志愿劳动服务-学院劳育-其他类型活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-20",
+            "score": "3",
+            "scoringCondition": "1.参与加1-3分。"
+        },
+        {
+            "activityName": "人工智能学院党务知识挑战赛",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-20",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "传承体育精神，续写荣耀篇章 线上知识竞赛（第四期）活动",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加学院体育类活动-非线下体育活动-学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-17",
+            "score": "1.5",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“龙舟竞渡，知识领航” ------大学生划龙舟知识竞赛",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加学院体育类活动-非线下体育活动-学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-17",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“泳”往直前，知识竞渡 —— 大学生游泳知识竞赛",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加学院体育类活动-非线下体育活动-学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-17",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "云计算231班5月团日活动[1]",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "德育测评-其他德育项目【大一、大二】-参加班级思政类活动-班级德育-团日活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-16",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（非毕业班）"
+        },
+        {
+            "activityName": "5.13劳育活动",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "劳育测评-5.2其他劳育活动-积极参加学院组织志愿劳动服务-学院劳育-其他类型活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-13",
+            "score": "3",
+            "scoringCondition": "1.参与加1-3分。"
+        },
+        {
+            "activityName": "“酵醒生活，乳此简单” 酸奶系列科普活动 第二期",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-线下讲座(统一)",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-12",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "“生研世界，化探微元” ——生化知识线上答题活动 第五期",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-12",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "”云端传爱，感恩有你“母亲节知识竞赛",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加社团美育类活动-社团美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-11",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）； \n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“牵手爱心，善行崇阳”捐步公益活动（第十期）",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-线下体育活动-社团体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-10",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "第四届“智信杯”广东省高校信息素养挑战赛",
+            "assessmentIndicator": "智育测评",
+            "assessmentItem": "智育测评-2.2技能竞赛及学术创新项目-其他校级智育类活动-校级智育-2025第四届“智信杯”广东省高校信息素养挑战赛",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-09",
+            "score": "0.1",
+            "scoringCondition": "参与加0.1 分，获一等奖另加1 分，二等奖另加0.8 分，三等奖另加0.6 分，优秀奖另加0.4 分。以上奖项不叠加。"
+        },
+        {
+            "activityName": "5.6劳育活动",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "劳育测评-5.2其他劳育活动-积极参加学院组织志愿劳动服务-学院劳育-其他类型活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-06",
+            "score": "3",
+            "scoringCondition": "1.参与加1-3分。"
+        },
+        {
+            "activityName": "五一劳动节知识竞赛",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-01",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“音步同频，律动生活” 步数打卡音乐（第四期）",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-线下体育活动-社团体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-05-01",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "知行合一,出彩实践",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-其他类型活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-30",
+            "score": "1",
+            "scoringCondition": "1.参与并符合要求加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "校级德育-专业风采展",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-29",
+            "score": "2",
+            "scoringCondition": "1.观众加1-2分；2.工作人员加2分。（非毕业班）"
+        },
+        {
+            "activityName": "“码界侦探·Bug猎手行动”（非毕业班）",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-其他校级美育类活动-一般校级美育活动-一般校级美育—作品征集（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-28",
+            "score": "1",
+            "scoringCondition": "1.凡参与活动者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "鉴红微视，传承初心主题活动",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-线下观影（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-25",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分； 2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "“大疆有域，爱心无垠”捐步公益活动（第七期）",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-线下体育活动-社团体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-25",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "“音步同频，律动生活” 步数打卡音乐（第三期）",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-线下体育活动-社团体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-22",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "\"运动识界，定向突围\"线上知识竞赛",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-非线下体育活动-社团体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-22",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“律动体操，智慧赛场”体操知识竞赛",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加学院体育类活动-非线下体育活动-学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-22",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "学院德育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-18",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）； \n2.工作人员加1-2分。（以上分数不叠加）（非毕业班）"
+        },
+        {
+            "activityName": "【品牌活动】“书页之境：女性叙事的思辨之光”共读活动",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-其他校级美育类活动-校级美育-阅读马拉松系列共读",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-17",
+            "score": "3",
+            "scoringCondition": "1、按书籍阅读完成率100%加（一般校级美育1分其他校级美育3分） , 80%-99% , 50%-79% ,分别加3分 ，2分； 2、作品被评选为一等奖（4名）另加2分、二等奖（4名）另加1分、三等奖（6名）另加0.5分 3、工作人员、共读助理加2分，若同时参与共读活动，并达到阅读完成率的100%则另加（一般校级美育1分其他校级美育3分）。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "学院体育-线下运动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-16",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分； \n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "【品牌活动】青春课堂之读书分享会（第三期）",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加社团美育类活动-社团美育-线下分享会（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-14",
+            "score": "1.5",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-13",
+            "score": "1.5",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“蓝星织梦·青山为证”——知识竞赛",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-其他校级美育类活动-一般校级美育活动-一般校级美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-12",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "昔日军中练强兵，今朝校里带运动活动",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-打卡活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-12",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-作品征集（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-12",
+            "score": "2",
+            "scoringCondition": "1.凡参与活动者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "“步步为益，共筑美好”捐步公益活动（第五期）",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-线下体育活动-社团体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-05",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "【心运动系列活动】“行无止境·燃动步数”体育步数打卡活动（第二期）",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加学院体育类活动-非线下体育活动-学院体育-线上运动视频打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-01",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分。（打卡活动至少需要打卡3天） \n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-01",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "学院劳育-积极参加学院组织志愿劳动服务（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-01",
+            "score": "3",
+            "scoringCondition": "【大一、大二】积极参加学院组织的志愿劳动服务，每完成一次志愿劳动服务可得3分，每学年上限分30分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "学院德育-线下观影（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-04-01",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。（非毕业班）"
+        },
+        {
+            "activityName": "【心运动系列活动】“行无止境·燃动步数”体育步数打卡活动",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加学院体育类活动-非线下体育活动-学院体育-线上运动视频打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-25",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（打卡活动至少需要打卡3天） \n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "学院劳育-积极参加学院组织志愿劳动服务（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-25",
+            "score": "3",
+            "scoringCondition": "【大一、大二】积极参加学院组织的志愿劳动服务，每完成一次志愿劳动服务可得3分，每学年上限分30分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "学院德育-线下观影（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-23",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。（非毕业班）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-22",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "植树节线上知识竞赛",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加社团美育类活动-社团美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-20",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）； \n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "2025大学生创新创业促进会 体育知识竞赛",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-其他校级体育类活动-非线下体育活动-校级体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-18",
+            "score": "1.5",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“春夏秋冬——春天”摄影活动",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加学院美育类活动-学院美育-作品征集（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-14",
+            "score": "1",
+            "scoringCondition": "1.凡参与活动者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-14",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-作品征集（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-14",
+            "score": "1",
+            "scoringCondition": "1.凡参与活动者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "支付宝捐步助力山区儿童健康成长活动",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-线下体育活动-社团体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-11",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分。（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "学院劳育-积极参加学院组织志愿劳动服务（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-11",
+            "score": "3",
+            "scoringCondition": "【大一、大二】积极参加学院组织的志愿劳动服务，每完成一次志愿劳动服务可得3分，每学年上限分30分。"
+        },
+        {
+            "activityName": "“音步同频，律动生活”步数打卡音乐活动",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "体育测评-3.2其他体育类活动-参加社团体育类活动-线下体育活动-社团体育-步数打卡（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-10",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（步数打卡活动至少需要打卡3天，每天打卡10000步及以上）；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-06",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "“互联智竞知海扬帆” 互联网+知识竞赛第二期",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-其他校级美育类活动-一般校级美育活动-一般校级美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-03-01",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "青年大学习",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-01-14",
+            "score": "8",
+            "scoringCondition": "【大一、大二】每学期参加青年大学习期末期数按比例加分，期数比例非整数，以四舍五入取整。每学期上限分为4分。每学年上限8分。\n【毕业班】每学期参加青年大学习期末期数按比例加分，期数比例非整数，以四舍五入取整。每学期上限分为4分。每学年上限8分。（只算大三第一学期）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "参加校园阳光长跑活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-01-10",
+            "score": "10",
+            "scoringCondition": "【大一、大二】阳光长跑活动分两学期进行，参加每学期阳光长跑活动按 要求完成公里数者，每学期加 10 分，两学期加 20 分； \n备注： \n阳光长跑免跑不加分，最终成绩以系统后台导出为准。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "每周宿舍清洁",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-01-01",
+            "score": "25",
+            "scoringCondition": "【大一、大二】根据每年的宿舍评比方案更新评分细则。走读、外宿的学生由学院安排公共区域劳动等相关劳育活动给予加分。\n【毕业班】根据每年的宿舍评比方案更新评分细则。走读、外宿的学生由学院安排公共区域劳动等相关劳育活动给予加分。（只算大三第一学期）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "文明宿舍（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-01-01",
+            "score": "3",
+            "scoringCondition": "【大一、大二】根据每年的宿舍评比方案更新评分细则。\n【毕业班】根据每年的宿舍评比方案更新评分细则。（只算大三第一学期）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "智育测评",
+            "assessmentItem": "创新创业竞赛(统一)",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-01-01",
+            "score": "1.7",
+            "scoringCondition": "【大一、大二】1.在创新创业竞赛中，参加Ⅰ级竞赛项目获得国家一等奖 加 10 分，二等奖加 8 分，三等奖加 6 分，省一等奖加 6 分，二等奖加 4 分，三等奖加 2 分； \n2.在创新创业竞赛中，参加Ⅱ级竞赛项目获得国家一等奖 加 5 分，二等奖加 4 分，三等奖加 3 分，省一等奖加 3 分， 二等奖加 2 分，三等奖加 1 分； \n3.参加学校创新创业竞赛，每人每次加 0.1 分，获一等奖 另加 1 分，二等奖另加 0.8 分，三等奖另加 0.6 分，优秀 奖另加 0.4 分； \n4.同一赛事获得多项名次，按照最高成绩加分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "宿舍卫生检查扣分（德）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-01-01",
+            "score": "0.5",
+            "scoringCondition": "1.无故不参加宿舍卫生检查，宿舍成员每次扣1分； 2.0分宿舍，每次扣0.5分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "宿舍卫生检查扣分（劳）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2025-01-01",
+            "score": "0.5",
+            "scoringCondition": "1.无故不参加宿舍卫生检查，宿舍成员每次扣1分；\n2.0分宿舍，每次扣0.5分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "参加劳育类活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-31",
+            "score": "2",
+            "scoringCondition": "积极参加劳育类活动，每次1-2分，每学年上限20分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "入党积极分子及党校培训",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-31",
+            "score": "2",
+            "scoringCondition": "【大一、大二】参加学校党校培训，加1分；被党支部确定为入党积极分子，加2分；被党支部确定为入党发展对象，加3分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "参加《国家学生体质健康标准》测试",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-30",
+            "score": "20",
+            "scoringCondition": "【大一、大二】\n参加年度《国家学生体质健康标准》测试： \n1.优秀（≥90 分）加 40 分； \n2.良好（80≤X＜90 分）加 30 分； \n3.及格（60≤X＜80 分）加 20 分； \n4.免测（申请通过）加 10 分。 \n备注：\n《国家学生体质健康标准》测试最终成绩以当年 12 月 30 日前体适能显示成绩为准； 《国家学生体质健康标准》测试免测未申请和申请不通过 按 0 分处理，不加分；以当年 12 月 30 日智慧 3.0 申请通过为准。 \n【毕业班】\n参加年度《国家学生体质健康标准》测试： \n1.优秀（≥90 分）加40 分；\n2.良好（80≤X＜90 分）加30 分； \n3.及格（60≤X＜80 分）加20 分； \n4.免测（申请通过）加10 分。\n 备注： \n《国家学生体质健康标准》测试最终成绩以当年12 月30 日前体适能显示成绩为准； 《国家学生体质健康标准》测试免测未申请和申请不通过 按0 分处理，不加分；以当年12 月30 日智慧3.0 申请通过为准。"
+        },
+        {
+            "activityName": "“武士精神探秘”-答题知识竞赛活动",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加社团美育类活动-社团美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-20",
+            "score": "1",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）； \n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-作品征集（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-12",
+            "score": "1",
+            "scoringCondition": "1.凡参与活动者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "社团体育-线下运动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-11",
+            "score": "2",
+            "scoringCondition": "1.凡参与活动符合条件者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "【品牌活动】国学与人生修养讲座",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-其他校级美育类活动-一般校级美育活动-一般校级美育--线下讲座（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-04",
+            "score": "1.5",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "“感恩有你，温暖相伴”摄影活动（非毕业班）",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-其他校级美育类活动-一般校级美育活动-一般校级美育—作品征集（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-12-04",
+            "score": "1",
+            "scoringCondition": "1.凡参与活动者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "第二十六届文化艺术节系列活动之文明素养知识竞赛",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.1审美和人文素养-参加学校文化艺术节-校级美育-第二十六届文化艺术节系列活动之文明素养知识竞赛",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-11-24",
+            "score": "5",
+            "scoringCondition": "1.参加活动且成绩达60分以上加2分，成绩达到80分以上加5分（以上加分不可叠加)；\n2.工作人员加5分。"
+        },
+        {
+            "activityName": "“学霸养成记”——21天图书馆学习打卡挑战",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "美育测评-4.2其他美育类活动-参加社团美育类活动-社团美育-打卡活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-11-22",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "参加校运会（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-11-22",
+            "score": "2",
+            "scoringCondition": "1.参加学校体育文化活动（校级）加 5 分；\n2.参加学校体育文化暨田径运动会开幕式，闭幕式节目演 出，二级学院代表队列方块，二级学院啦啦队及裁判员工 作，加 5 分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "参加校运会（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-11-21",
+            "score": "2",
+            "scoringCondition": "1.参加学校体育文化活动（校级）加 5 分；\n2.参加学校体育文化暨田径运动会开幕式，闭幕式节目演 出，二级学院代表队列方块，二级学院啦啦队及裁判员工 作，加 5 分。"
+        },
+        {
+            "activityName": "云计算231班11月团日活动（非毕业班）",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "德育测评-其他德育项目【大一、大二】-参加班级思政类活动-班级德育-团日活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-11-19",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（非毕业班）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "校级美育-心理健康知识大赛",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-11-18",
+            "score": "1.5",
+            "scoringCondition": "1.参与宣传环节且初赛及格者加1-2分； 2.进入决赛加1.5分； 3.工作人员加1-2分； 4..观众加1分。（以上各分不予叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-11-15",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "劳育测评",
+            "assessmentItem": "学院劳育-赛事工作人员（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-27",
+            "score": "6",
+            "scoringCondition": "参与一次加3分，上限6分。"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-线下分享会（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-25",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "云计算231班10月团日活动（非毕业班）",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "德育测评-其他德育项目【大一、大二】-参加班级思政类活动-班级德育-团日活动（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-22",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分。（非毕业班）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "体育测评",
+            "assessmentItem": "学院体育-知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-22",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-21",
+            "score": "2",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）；\n2.工作人员加1-2分。（以上分数不叠加）"
+        },
+        {
+            "activityName": "维镀包装设计软件知识竞赛（非毕业班）",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "德育测评-其他德育项目【大一、大二】-参加社团思政类活动-社团德育-线上知识竞赛（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-20",
+            "score": "1.5",
+            "scoringCondition": "1.参与加1-2分（分数低于60不予加分，具体分数划分由主办方决定）； \n2.工作人员加1-2分。（以上分数不叠加）（非毕业班）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "学院美育-作品征集（统一）",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-14",
+            "score": "1",
+            "scoringCondition": "1.凡参与活动者加1-2分；\n2.工作人员加1-2分。"
+        },
+        {
+            "activityName": "10.13献血活动",
+            "assessmentIndicator": "德育测评",
+            "assessmentItem": "德育测评-其他德育项目【大一、大二】-义务献血-义务献血",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-10-13",
+            "score": "10",
+            "scoringCondition": "【大一、大二】参加义务献血活动，成功献血一次，所在学年加10分。（献血没成功的同学加1分）"
+        },
+        {
+            "activityName": "",
+            "assessmentIndicator": "美育测评",
+            "assessmentItem": "校级美育-2024迎新晚会布场撤场工作人员",
+            "assessmentSystem": "2024-2025年学生综合测评体系(2024年9月)",
+            "occurrenceTime": "2024-09-27",
+            "score": "8",
+            "scoringCondition": "1.负责人加1-10分；\n2.工作人员加1-8分。"
+        }
+    ],
+    "items": [
+        {
+            "name": "智育测评（60%）",
+            "percentage": "60",
+            "score": "78.73"
+        },
+        {
+            "name": "美育测评（8%）",
+            "percentage": "8",
+            "score": "54.5"
+        },
+        {
+            "name": "劳育测评（8%）",
+            "percentage": "8",
+            "score": "92"
+        },
+        {
+            "name": "德育测评（16%）",
+            "percentage": "16",
+            "score": "90.94"
+        },
+        {
+            "name": "体育测评（8%）",
+            "percentage": "8",
+            "score": "72.5"
+        }
+    ],
+    "totalScore": "79.308"
+}

@@ -4,7 +4,7 @@ import { Menu } from 'antd';
 import MySider from '../../containers/MySider/MySider';
 import MyContent from '../../containers/MyContent/MyContent';
 const { Header, Footer, Sider, Content, } = Layout;
-import { BarChartOutlined, UserOutlined } from '@ant-design/icons';
+import StudentDashboard from '../../containers/Charts/StudentDashboard';
 const { Title } = Typography;
 const headerStyle = {
   paddingInline: '20px',
