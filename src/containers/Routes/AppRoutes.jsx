@@ -1,8 +1,7 @@
 import React from 'react';
 import { Routes, Route, Navigate } from 'react-router-dom';
-import StudentDashboard from '../Charts/StudentDashboard';
 import MyContent from '../MyContent/MyContent';
-import DemoRose from '../Charts/RadarCharts';
+import EventTables from '../Charts/EventTables';
 
 // 个人信息页面组件（占位）
 const Profile = () => (
@@ -24,7 +23,7 @@ const AppRoutes = () => {
     return (
         <Routes>
             <Route path="/dashboard" element={<MyContent />} />
-            <Route path="/charts" element={<ChartsAnalysis />} />
+            <Route path="/charts" element={<EventTables />} />
             <Route path="/" element={<Navigate to="/dashboard" replace />} />
         </Routes>
     );

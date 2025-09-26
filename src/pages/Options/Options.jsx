@@ -17,7 +17,6 @@ const headerStyle = {
 const contentStyle = {
   padding: '20px',
   background: 'linear-gradient(to right, #fefefe, #fff)',
-  marginBottom: '28px',
   minHeight: 'calc(100vh - 64px - 64px)', // 减去header和footer的高度
 };
 
@@ -60,9 +59,6 @@ const Options = () => {
           <Content style={contentStyle}>
             <AppRoutes />
           </Content>
-          <Footer style={footerStyle}>
-            © 2024
-          </Footer>
         </Layout>
       </Layout>
     </Router>
