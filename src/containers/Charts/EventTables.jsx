@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { Card, Space, Table, Tag, Typography } from 'antd';
+import React, { useEffect, useState, useMemo } from 'react';
+import { Card, Space, Table, Tag, Typography, message } from 'antd';
 import SearchForm from '../SearchForm/SearchForm';
 
 /**
@@ -108,8 +108,56 @@ const EventTables = () => {
     const [studentInfo, setStudentInfo] = useState(null);
     // 定义状态变量，用于存储处理后的事件数据，初始值为空数组
     const [eventData, setEventData] = useState([]);
+    // 定义状态变量，用于存储原始数据（不经过搜索过滤）
+    const [originalData, setOriginalData] = useState([]);
     // 定义状态变量，用于控制表格的加载状态，初始值为 false
     const [loading, setLoading] = useState(false);
+    // 定义状态变量，用于存储搜索参数
+    const [searchParams, setSearchParams] = useState({});
+
+    // 搜索函数
+    const handleSearch = (searchValues) => {
+        setSearchParams(searchValues);
+
+        if (Object.keys(searchValues).length === 0) {
+            // 如果没有搜索条件，显示所有数据
+            setEventData(originalData);
+            return;
+        }
+
+        const filteredData = originalData.filter(item => {
+            // 活动名称搜索（模糊匹配）
+            if (searchValues.activityName && item.activityName) {
+                if (!item.activityName.includes(searchValues.activityName)) {
+                    return false;
+                }
+            }
+
+            // 测评类型搜索（精确匹配）
+            if (searchValues.assessmentIndicator && item.assessmentIndicator !== searchValues.assessmentIndicator) {
+                return false;
+            }
+
+            // 活动时间搜索
+            if (searchValues.occurrenceTime && item.occurrenceTime) {
+                const searchDate = searchValues.occurrenceTime.format('YYYY-MM-DD');
+                if (item.occurrenceTime !== searchDate) {
+                    return false;
+                }
+            }
+
+            return true;
+        });
+
+        setEventData(filteredData);
+
+        // 显示搜索结果统计
+        if (filteredData.length === 0) {
+            message.info('未找到匹配的记录');
+        } else {
+            message.success(`找到 ${filteredData.length} 条匹配记录`);
+        }
+    };
 
     // 使用 useEffect 钩子，在组件挂载时执行数据获取操作
     useEffect(() => {
@@ -128,14 +176,14 @@ const EventTables = () => {
                             setStudentInfo(storedInfo);
                             // 处理获取到的数据
                             const processedData = processEventData(storedInfo);
-                            // 更新事件数据状态
+                            // 更新原始数据和事件数据状态
+                            setOriginalData(processedData);
                             setEventData(processedData);
                         }
                         // 设置加载状态为 false
                         setLoading(false);
                     });
                 } else {
-                    // 如果不支持 chrome.storage API，设置加载状态为 false
                     setLoading(false);
                 }
             } catch (error) {
@@ -150,24 +198,22 @@ const EventTables = () => {
         fetchData();
     }, []);
 
-    const myPagination = () => {
-        return {
-            current: searchParams.current ?? 1,
-            pageSize: searchParams.pageSize ?? 10,
-            showSizeChanger: true,
-            showTotal: (total, range) => `第 ${range[0]}-${range[1]} 条，共 ${total} 条记录`,
-        }
-    }
-
-
-
-
+    // 分页配置
+    const myPagination = {
+        pageSize: 10,
+        showSizeChanger: true,
+        showQuickJumper: true,
+        showTotal: (total, range) => `第 ${range[0]}-${range[1]} 条，共 ${total} 条记录`,
+    };
 
     // 组件返回一个 Table 组件，用于展示事件数据
     return (
         <>
             <Card title="测评记录" size='large'>
-                <SearchForm />
+                <SearchForm
+                    onSearch={handleSearch}
+                    loading={loading}
+                />
                 <Table
                     // 传入表格的列配置
                     columns={columns}
@@ -183,9 +229,7 @@ const EventTables = () => {
                 />
             </Card>
         </>
-
     );
 };
-
 
 export default EventTables;
