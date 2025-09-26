@@ -932,7 +932,7 @@
         },
         {
             "name": "劳育测评（8%）",
-            "percentage": "8",
+            "percentage": "8",                                                  
             "score": "92"
         },
         {

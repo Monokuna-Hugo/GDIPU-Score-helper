@@ -1,23 +1,42 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Space, Table, Tag } from 'antd';
 const EventTables = () => {
 
     const columns = [
         {
-            title: 'Name',
-            dataIndex: 'name',
-            key: 'name',
-            render: text => <a>{text}</a>,
+            title: '活动名称',
+            dataIndex: 'activityName',
+            key: 'activityName',
         },
         {
-            title: 'Age',
-            dataIndex: 'age',
-            key: 'age',
+            title: '测评类型',
+            dataIndex: 'accessmentIndicator',
+            key: 'accessmentIndicator',
         },
         {
-            title: 'Address',
-            dataIndex: 'address',
-            key: 'address',
+            title: '测评标准',
+            dataIndex: 'accessmentItem',
+            key: 'accessmentItem',
+        },
+        {
+            title: '测评体系',
+            dataIndex: 'accessmentSystem',
+            key: 'accessmentSystem',
+        },
+        {
+            title: '发生时间',
+            dataIndex: 'occurrenceTime',
+            key: 'occurrenceTime',
+        },
+        {
+            title: '分数',
+            dataIndex: 'score',
+            key: 'score',
+        },
+        {
+            title: '分数标准',
+            dataIndex: 'scoreCondition',
+            key: 'scoreCondition',
         },
         {
             title: 'Tags',
@@ -50,31 +69,39 @@ const EventTables = () => {
             ),
         },
     ];
-    const data = [
-        {
-            key: '1',
-            name: 'John Brown',
-            age: 32,
-            address: 'New York No. 1 Lake Park',
-            tags: ['nice', 'developer'],
-        },
-        {
-            key: '2',
-            name: 'Jim Green',
-            age: 42,
-            address: 'London No. 1 Lake Park',
-            tags: ['loser'],
-        },
-        {
-            key: '3',
-            name: 'Joe Black',
-            age: 32,
-            address: 'Sydney No. 1 Lake Park',
-            tags: ['cool', 'teacher'],
-        },
-    ];
+
+
+
+    const processEventData = (eventInfo) => {
+        return eventInfo.accessmentRecords.map(item => {
+            return {
+                activityName: item.activityName,
+                accessmentIndicator: item.accessmentIndicator,
+                accessmentItem: item.accessmentItem,
+                accessmentSystem: item.accessmentSystem,
+                accessmentTime: item.accessmentTime,
+                score: item.score,
+                scoreTime: item.scoreTime,
+            }
+        })
+    }
+
+    const [studentInfo, setStudentInfo] = useState(null)
+    const [eventData, setEventData] = useState([])
+
+    useEffect(() => {
+        if (typeof chrome != 'undefined') {
+            chrome.storage.local.get('studentInfo', ({ studentInfo: storedInfo }) => {
+                if (storedInfo) {
+                    setStudentInfo(storedInfo)
+                    setEventData(processEventData(storeInfo))
+                }
+            })
+        }
+    })
+
     return (
-        <Table columns={columns} dataSource={data} />
+        <Table columns={columns} dataSource={eventData} />
     );
 
 };
