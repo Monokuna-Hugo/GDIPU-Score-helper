@@ -33,7 +33,7 @@ class MyContent extends Component {
         return (
             <Row gutter={24}>
                 <Col span={12}>
-                    <Card title="测评记录">
+                    <Card title="测评数据">
                         <StudentDashboard studentInfo={studentInfo} />
                     </Card>
                 </Col>

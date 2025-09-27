@@ -54,10 +54,11 @@ const SearchForm = ({ onSearch, loading = false }) => {
                     </Select>
                 </FormItem>
 
-                <FormItem label="活动时间" name="occurrenceTime">
-                    <DatePicker
-                        placeholder='选择活动时间'
-                        style={{ width: 150 }}
+                <FormItem label="活动时间范围" name="occurrenceTimeRange">
+                    <RangePicker
+                        placeholder={['开始时间', '结束时间']}
+                        style={{ width: 240 }}
+                        format="YYYY-MM-DD"
                     />
                 </FormItem>
 

@@ -26,16 +26,6 @@ const EventTables = () => {
             dataIndex: 'assessmentIndicator',
             key: 'assessmentIndicator',
             width: 100,
-            // 定义列的筛选选项
-            filters: [
-                { text: '德育测评', value: '德育测评' },
-                { text: '智育测评', value: '智育测评' },
-                { text: '体育测评', value: '体育测评' },
-                { text: '美育测评', value: '美育测评' },
-                { text: '劳育测评', value: '劳育测评' },
-            ],
-            // 筛选逻辑，根据选中的值过滤数据
-            onFilter: (value, record) => record.assessmentIndicator === value,
         },
         {
             title: '测评项目',
@@ -64,8 +54,6 @@ const EventTables = () => {
             dataIndex: 'score',
             key: 'score',
             width: 80,
-            // 定义排序逻辑，根据分数进行排序
-            sorter: (a, b) => parseFloat(a.score) - parseFloat(b.score),
             // 自定义渲染函数，将分数显示为蓝色加粗文本
             render: (score) => <span style={{ fontWeight: 'bold', color: '#1890ff' }}>{score}</span>,
         },
@@ -138,14 +126,32 @@ const EventTables = () => {
                 return false;
             }
 
-            // 活动时间搜索
-            if (searchValues.occurrenceTime && item.occurrenceTime) {
-                const searchDate = searchValues.occurrenceTime.format('YYYY-MM-DD');
-                if (item.occurrenceTime !== searchDate) {
-                    return false;
+            // 活动时间范围搜索
+            if (searchValues.occurrenceTimeRange && item.occurrenceTime) {
+                const [startDate, endDate] = searchValues.occurrenceTimeRange;
+                const itemDate = new Date(item.occurrenceTime);
+
+                if (startDate && endDate) {
+                    const start = new Date(startDate.format('YYYY-MM-DD'));
+                    const end = new Date(endDate.format('YYYY-MM-DD'));
+                    end.setDate(end.getDate() + 1); // 包含结束日期
+
+                    if (itemDate < start || itemDate >= end) {
+                        return false;
+                    }
+                } else if (startDate && !endDate) {
+                    const start = new Date(startDate.format('YYYY-MM-DD'));
+                    if (itemDate < start) {
+                        return false;
+                    }
+                } else if (!startDate && endDate) {
+                    const end = new Date(endDate.format('YYYY-MM-DD'));
+                    end.setDate(end.getDate() + 1); // 包含结束日期
+                    if (itemDate >= end) {
+                        return false;
+                    }
                 }
             }
-
             return true;
         });
 
@@ -202,7 +208,7 @@ const EventTables = () => {
     const myPagination = {
         pageSize: 10,
         showSizeChanger: true,
-        showQuickJumper: true,
+        showQuickJumper: false,
         showTotal: (total, range) => `第 ${range[0]}-${range[1]} 条，共 ${total} 条记录`,
     };
 
