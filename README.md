@@ -1,150 +1,139 @@
 <img src="src/assets/img/icon-128.png" width="64"/>
 
-# Chrome Extension (MV3) Boilerplate with React 18 and Webpack 5
+# GDIPU Score Helper
 
-[![npm](https://img.shields.io/npm/v/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
-[![npm-download](https://img.shields.io/npm/dw/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
-[![npm](https://img.shields.io/npm/dm/chrome-extension-boilerplate-react)](https://www.npmjs.com/package/chrome-extension-boilerplate-react)
+[![React](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org)
+[![Ant Design](https://img.shields.io/badge/Ant%20Design-5.27.3-blue)](https://ant.design)
+[![Chrome Extension](https://img.shields.io/badge/Chrome-Extension-brightgreen)](https://developer.chrome.com/docs/extensions/)
+[![Manifest V3](https://img.shields.io/badge/Manifest-V3-orange)](https://developer.chrome.com/docs/extensions/mv3/intro/)
 
-## Announcements
+一个专为广轻大学生设计的Chrome浏览器扩展，用于帮助管理和查看综合测评成绩。
 
-- Recently updated from **[React](https://reactjs.org)** ~~17~~ to **18**!
-- **_This boilerplate adopts [Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-overview/)!_**
-  - For V2 users, please check out the [manifest-v2](https://github.com/lxieyang/chrome-extension-boilerplate-react/tree/manifest-v2) branch, or use version [3.x](https://www.npmjs.com/package/chrome-extension-boilerplate-react/v/3.3.0).
-  - Check out the [Manifest V3 Migration Guide](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-migration/).
-- Recently added [devtools](https://developer.chrome.com/docs/extensions/mv3/devtools/) Support! Thanks [GeekaholicLin](https://github.com/lxieyang/chrome-extension-boilerplate-react/issues/17)!
-- Recently updated from **[Webpack Dev Server](https://webpack.js.org/configuration/dev-server/)** ~~3.x~~ to **4.x** and **[Webpack](https://webpack.js.org/)** ~~4~~ to **5**!
-- Recently added [TypeScript](https://www.typescriptlang.org/) Support!
+## 功能特性
 
-## Features
+### 🎯 核心功能
+- **成绩数据可视化** - 使用Ant Design Charts展示成绩趋势和统计信息
+- **实时时间显示** - 在头部显示当前时间，支持自动更新
 
-This is a basic Chrome Extensions boilerplate to help you write modular and modern Javascript code, load CSS easily and [automatic reload the browser on code changes](https://webpack.github.io/docs/webpack-dev-server.html#automatic-refresh).
 
-This boilerplate is updated with:
+### 🛠️ 技术特性
+- **现代化技术栈** - 基于React 18 + Ant Design 5 + Webpack 5构建
+- **模块化架构** - 组件化开发，易于维护和扩展
 
-- [Chrome Extension Manifest V3](https://developer.chrome.com/docs/extensions/mv3/intro/mv3-overview/)
-- [React 18](https://reactjs.org)
-- [Webpack 5](https://webpack.js.org/)
-- [Webpack Dev Server 4](https://webpack.js.org/configuration/dev-server/)
-- [React Refresh](https://www.npmjs.com/package/react-refresh)
-- [react-refresh-webpack-plugin](https://github.com/pmmmwh/react-refresh-webpack-plugin)
-- [eslint-config-react-app](https://www.npmjs.com/package/eslint-config-react-app)
-- [Prettier](https://prettier.io/)
-- [TypeScript](https://www.typescriptlang.org/)
+## 安装和运行
 
-This boilerplate is heavily inspired by and adapted from [https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate](https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate), with additional support for React 18 features, Webpack 5, and Webpack Dev Server 4.
+### 环境要求
+- Node.js >= 18.0.0
+- Chrome浏览器 >= 88.0.0
 
-Please open up an issue to nudge me to keep the npm packages up-to-date. FYI, it takes time to make different packages with different versions work together nicely.
+### 开发环境设置
 
-## Installing and Running
+1. **克隆项目**
+   ```bash
+   git clone <repository-url>
+   cd GDIPU-Score-helper
+   ```
 
-### Procedures:
+2. **安装依赖**
+   ```bash
+   npm install
+   ```
 
-1. Check if your [Node.js](https://nodejs.org/) version is >= **18**.
-2. Clone this repository.
-3. Change the package's `name`, `description`, and `repository` fields in `package.json`.
-4. Change the name of your extension on `src/manifest.json`.
-5. Run `npm install` to install the dependencies.
-6. Run `npm start`
-7. Load your extension on Chrome following:
-   1. Access `chrome://extensions/`
-   2. Check `Developer mode`
-   3. Click on `Load unpacked extension`
-   4. Select the `build` folder.
-8. Happy hacking.
+3. **启动开发服务器**
+   ```bash
+   npm start
+   ```
 
-## Structure
+4. **加载扩展到Chrome**
+   - 打开Chrome浏览器，访问 `chrome://extensions/`
+   - 开启"开发者模式"
+   - 点击"加载已解压的扩展程序"
+   - 选择项目中的 `build` 文件夹
 
-All your extension's code must be placed in the `src` folder.
-
-The boilerplate is already prepared to have a popup, an options page, a background page, and a new tab page (which replaces the new tab page of your browser). But feel free to customize these.
-
-## TypeScript
-
-This boilerplate now supports TypeScript! The `Options` Page is implemented using TypeScript. Please refer to `src/pages/Options/` for example usages.
-
-## Webpack auto-reload and HRM
-
-To make your workflow much more efficient this boilerplate uses the [webpack server](https://webpack.github.io/docs/webpack-dev-server.html) to development (started with `npm start`) with auto reload feature that reloads the browser automatically every time that you save some file in your editor.
-
-You can run the dev mode on other port if you want. Just specify the env var `port` like this:
-
-```
-$ PORT=6002 npm run start
+### 生产环境构建
+```bash
+npm run build
 ```
 
-## Content Scripts
-
-Although this boilerplate uses the webpack dev server, it's also prepared to write all your bundles files on the disk at every code change, so you can point, on your extension manifest, to your bundles that you want to use as [content scripts](https://developer.chrome.com/extensions/content_scripts), but you need to exclude these entry points from hot reloading [(why?)](https://github.com/samuelsimoes/chrome-extension-webpack-boilerplate/issues/4#issuecomment-261788690). To do so you need to expose which entry points are content scripts on the `webpack.config.js` using the `chromeExtensionBoilerplate -> notHotReload` config. Look the example below.
-
-Let's say that you want use the `myContentScript` entry point as content script, so on your `webpack.config.js` you will configure the entry point and exclude it from hot reloading, like this:
-
-```js
-{
-  …
-  entry: {
-    myContentScript: "./src/js/myContentScript.js"
-  },
-  chromeExtensionBoilerplate: {
-    notHotReload: ["myContentScript"]
-  }
-  …
-}
-```
-
-and on your `src/manifest.json`:
-
-```json
-{
-  "content_scripts": [
-    {
-      "matches": ["https://www.google.com/*"],
-      "js": ["myContentScript.bundle.js"]
-    }
-  ]
-}
-```
-
-## Intelligent Code Completion
-
-Thanks to [@hudidit](https://github.com/lxieyang/chrome-extension-boilerplate-react/issues/4)'s kind suggestions, this boilerplate supports chrome-specific intelligent code completion using [@types/chrome](https://www.npmjs.com/package/@types/chrome).
-
-## Packing
-
-After the development of your extension run the command
+## 项目结构
 
 ```
-$ NODE_ENV=production npm run build
+src/
+├── assets/           # 静态资源
+│   └── img/         # 图片资源
+├── containers/       # 容器组件
+│   ├── MyHeaders/   # 头部组件
+│   ├── MySider/     # 侧边栏组件
+│   ├── MyContent/   # 内容区域组件
+│   └── Charts/      # 图表组件
+├── contexts/         # React Context
+│   └── ThemeContext.jsx  # 主题上下文
+├── pages/           # 页面组件
+│   └── Options/     # 选项页面
+└── manifest.json    # 扩展配置文件
 ```
 
-Now, the content of `build` folder will be the extension ready to be submitted to the Chrome Web Store. Just take a look at the [official guide](https://developer.chrome.com/webstore/publish) to more infos about publishing.
+## 主要组件说明
 
-## Secrets
+### MyHeader 组件
+- 显示应用标题"智慧3.0助手"
+- 实时时间显示功能
+- 响应式布局设计
 
-If you are developing an extension that talks with some API you probably are using different keys for testing and production. Is a good practice you not commit your secret keys and expose to anyone that have access to the repository.
+### MySider 组件
+- 侧边栏导航菜单
+- 路由导航功能
+- 包含"数据总览"和"测评记录"选项
 
-To this task this boilerplate import the file `./secrets.<THE-NODE_ENV>.js` on your modules through the module named as `secrets`, so you can do things like this:
 
-_./secrets.development.js_
+## 使用说明
 
-```js
-export default { key: '123' };
-```
+### 数据查看
+- 通过侧边栏导航切换不同页面
+- 查看成绩统计和趋势图表
+- 支持数据筛选和搜索
 
-_./src/popup.js_
+## 开发指南
 
-```js
-import secrets from 'secrets';
-ApiCall({ key: secrets.key });
-```
+### 添加新功能
+1. 在相应的组件目录中创建新组件
+2. 如果需要全局状态，使用ThemeContext或创建新的Context
+3. 更新路由配置（如需要）
+4. 测试功能并提交代码
 
-:point_right: The files with name `secrets.*.js` already are ignored on the repository.
 
-## Resources:
+## 技术栈
 
-- [Webpack documentation](https://webpack.js.org/concepts/)
-- [Chrome Extension documentation](https://developer.chrome.com/extensions/getstarted)
+- **前端框架**: React 18.2.0
+- **UI组件库**: Ant Design 5.27.3
+- **构建工具**: Webpack 5.75.0
+- **开发服务器**: Webpack Dev Server 4.11.1
+- **路由管理**: React Router DOM 7.9.2
+- **图表库**: Ant Design Charts 2.6.4
+- **图标库**: Ant Design Icons 5.6.1
+
+## 浏览器兼容性
+
+- Chrome 88+
+- Edge 88+
+- 其他基于Chromium的浏览器
+
+## 贡献指南
+
+欢迎提交Issue和Pull Request来改进这个项目。
+
+## 许可证
+
+MIT License
+
+## 更新日志
+
+## 支持与反馈
+
+如果您在使用过程中遇到任何问题或有改进建议，请通过以下方式联系我们：
+- 提交GitHub Issue
+- 发送邮件到项目维护者
 
 ---
 
-Michael Xieyang Liu | [Website](https://lxieyang.github.io)
+**GDIPU Score Helper** - 让成绩管理更简单、更智能！

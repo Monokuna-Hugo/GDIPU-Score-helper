@@ -1,22 +1,14 @@
 import React, { useState, useEffect } from 'react';
-import { Flex, Layout, Statistic, Typography } from 'antd';
+import { Flex, Layout, Statistic, Switch, Typography, ConfigProvider, theme } from 'antd';
 import { HashRouter as Router } from 'react-router-dom';
 import MySider from '../../containers/MySider/MySider';
 import AppRoutes from '../../containers/Routes/AppRoutes';
+import { CheckOutlined, CloseOutlined } from '@ant-design/icons';
+import MyHeader from '../../containers/MyHeaders/MyHeader';
 
 const { Header, Footer, Content } = Layout;
-const { Title } = Typography;
-const { Timer } = Statistic;
 
-const headerStyle = {
-  paddingInline: '20px',
-  background: '#fff',
-  color: 'unset',
-  marginBottom: '1px',
-  display: 'flex',
-  justifyContent: 'space-between',
-  alignItems: 'center',
-};
+
 
 const contentStyle = {
   padding: '20px',
@@ -36,63 +28,34 @@ const layoutStyle = {
   minHeight: '100vh',
 };
 
-const titleStyle = {
-  color: 'black',
-  fontSize: '18px',
-  marginLeft: '20px',
-};
 
-const headerContentStyle = {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'flex-start',
-  height: '64px',
-};
-
-const TimerStyle = {
-  fontSize: '14px',
-  fontWeight: 'bold',
-  color: 'black',
-}
 
 const Options = () => {
-  const [currentTime, setCurrentTime] = useState(new Date());
 
-  useEffect(() => {
-    const Timer = setInterval(() => {
-      setCurrentTime(new Date());
-    }, 1000);
-    return () => clearInterval(Timer)
-  }, []);
+  const [themeValue, setThemeValue] = useState('default');
 
-  const formatTime = (date) => {
-    const year = date.getFullYear();
-    const month = date.getMonth() + 1;
-    const day = date.getDate();
-    const hour = date.getHours();
-    const minute = date.getMinutes().toString().padStart(2, '0');
-    const second = date.getSeconds().toString().padStart(2, '0');
-    return `${year}-${month}-${day} ${hour}:${minute}:${second}`;
-  }
+  const handleThemeChange = (checked) => {
+    setThemeValue(checked);
+  };
+
 
   return (
     <Router>
-      <Layout style={layoutStyle}>
-        <MySider />
-        <Layout>
-          <Header style={headerStyle}>
-            <div className='header-content' style={headerContentStyle}>
-              <Title className='header-title' style={titleStyle}>智慧3.0助手</Title>
-            </div>
-            <div style={TimerStyle}>
-              {formatTime(currentTime)}
-            </div>
-          </Header>
-          <Content style={contentStyle}>
-            <AppRoutes />
-          </Content>
+      <ConfigProvider
+        theme={{
+          algorithm: themeValue === 'default' ?  theme.defaultAlgorithm : theme.darkAlgorithm,
+        }}
+      >
+        <Layout style={layoutStyle}>
+          <MySider />
+          <Layout>
+            <MyHeader />
+            <Content style={contentStyle}>
+              <AppRoutes />
+            </Content>
+          </Layout>
         </Layout>
-      </Layout>
+      </ConfigProvider>
     </Router>
   );
 };
